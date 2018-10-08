@@ -1,0 +1,36 @@
+#masthead {
+	position: fixed;
+	width: 100%;
+	margin: 0 0 30px;
+	overflow: auto;
+	color: blue;
+	background: orange;
+	border-bottom: 2px solid grey;
+	font-family: Arial;
+}
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+nav {
+	float: right;
+	margin: top 25px;
+}
+
+nav a {
+	display: inline-block;
+	padding-left: 15px;
+	margin-left: 15px;
+	line-height: 18px;
+	color: aqua;
+	text-decoration: none;
+	border-left: 1px solid black;
+}
+
+nav: first-child {
+border-left: 0 none;
+}
