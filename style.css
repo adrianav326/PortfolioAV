@@ -1,3 +1,8 @@
+* {
+box-sizing: border-box;
+}
+
+/* header */
 #masthead {
 	position: fixed;
 	width: 100%;
@@ -9,6 +14,7 @@
 	font-family: Arial;
 }
 
+/* genera l*/
 .container {
 	width: 100%;
 	max-width: 960px;
@@ -35,6 +41,7 @@ nav: first-child {
 border-left: 0 none;
 }
 
+/* main */
 #main-container {
 	padding-top: 130px;
 }
@@ -56,6 +63,7 @@ border-left: 0 none;
 	margin-right: 25px;
 }
 
+/* sidebar */
 .sidebar {
 	float: right;
 	width: 100%;
@@ -73,12 +81,14 @@ h3, .sidebar h2 {
 	border-bottom: 2px solid yellow;
 }
 
+/* portfolio page */
 .social {
 	width: 110px;
 	height: 100px;
 	margin-top: 8px;
 	margin-right: 5px;
 }
+
 .work {
 	position: relative;
 	float: left;
@@ -87,6 +97,38 @@ h3, .sidebar h2 {
 	overflow: auto;
 }
 
+.work:nth-child(even) {
+	margin-right: 40px;
+}
+
+.work img {
+	width: 100%;
+	border: 0 none;
+	opacity: 0.8;
+}
+
+.work h3 {
+	position: absolute;
+	bottom:20px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 0;
+	font-weight: 300;
+	line-height: 30px;
+	color: purple;
+	text-align: center;
+	background: aqua;
+	border-bottom: 0;
+}
+
+.auth-image {
+	float: left;
+	width: 200px;
+	margin-top: 10px;
+	margin-right: 25px;
+}
+
+/* footer */
 footer {
 	padding: 30px 0;
 	clear: both;
