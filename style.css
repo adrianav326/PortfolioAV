@@ -1,3 +1,10 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 34px;
+	color: black;
+}
+
 * {
 box-sizing: border-box;
 }
@@ -14,12 +21,48 @@ box-sizing: border-box;
 	font-family: Arial;
 }
 
+.container a {
+	text-decoration: none;
+	color: black;
+}
+
 /* genera l*/
 .container {
 	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
 	clear: both;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin-bottom: 20px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 700;
+	color: purple;
+}
+
+h1 {
+	padding-bottom: 20px;
+	font-size: 30px;
+	line-height: 49px;
+	border-bottom: 3px solid green;
+}
+
+h2,
+h3 {
+	font-size: 22px;
 }
 
 nav {
@@ -89,6 +132,11 @@ h3, .sidebar h2 {
 	margin-right: 5px;
 }
 
+#dogimg {
+	width: 200px;
+	height: 150px;
+} 
+
 .work {
 	position: relative;
 	float: left;
@@ -127,6 +175,8 @@ h3, .sidebar h2 {
 	margin-top: 10px;
 	margin-right: 25px;
 }
+
+/* contact page */
 
 /* footer */
 footer {
